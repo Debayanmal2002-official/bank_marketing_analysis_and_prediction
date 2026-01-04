@@ -62,6 +62,16 @@ EDA was performed across four major dimensions:
 - Largest customer volume comes from **26–45**, but conversion is moderate
 
 ### 3️⃣ Campaign Strategy Insights
+
+<p align="center">
+  <img src="plots/campaign_frequency_success_rate.png" width="400">
+  <img src="plots/contact_success_rate.png" width="400">
+</p>
+<p align="center">
+  <img src="plots/day_of_week_success_rate.png" width="400">
+  <img src="plots/month_success_rate.png" width="400">
+</p>
+
 - **Cellular contact** is nearly **3× more effective** than telephone
 - Best performance with **1–3 contact attempts**
 - Excessive contacts (10+) lead to diminishing returns
@@ -69,6 +79,13 @@ EDA was performed across four major dimensions:
 - **March and December** show strong seasonal spikes
 
 ### 4️⃣ Economic Factors
+
+<p align="center">
+  <img src="plots/cons_conf_cat_success_rate.png" width="400">
+  <img src="plots/nr_employed_cat_success_rate.png" width="400">
+  <img src="plots/euribor_cat_success_rate.png" width="400">
+</p>
+
 - Low interest rate environments strongly boost subscriptions
 - Lower employment levels correlate with higher term deposit uptake
 - High consumer confidence significantly increases conversion rates
@@ -82,6 +99,26 @@ EDA was performed across four major dimensions:
 - Carefully handled **data leakage** by evaluating models:
   - With `duration`
   - Without `duration` (realistic production scenario)
+
+---
+
+## 🔗 Correlation Matrix
+
+A correlation matrix was generated to examine the **linear relationships between numerical features** in the dataset and to identify potential multicollinearity.
+
+Pearson correlation was used, with values ranging from **-1 to +1**, where:
+- **+1** indicates a strong positive relationship  
+- **-1** indicates a strong negative relationship  
+- **0** indicates no linear relationship
+
+<p align="center">
+  <img src="plots/coor_matrix.png" width="400">
+</p>
+
+The analysis shows that **macroeconomic variables** such as `euribor3m`, `nr.employed`, and `emp.var.rate` are **strongly correlated with each other**, reflecting overall economic conditions.  
+This insight is important for modeling, as highly correlated variables can influence model stability and interpretation.
+
+The correlation matrix also helps in **feature selection** and understanding which variables move together before building predictive models.
 
 ---
 
@@ -101,6 +138,12 @@ EDA was performed across four major dimensions:
 - Confusion Matrix
 
 ### Model Performance (Without Duration)
+
+<p align="center">
+  <img src="plots/Confusion_matrix.png" width="400">
+  <img src="plots/Roc_curve.png" width="400">
+</p>
+
 - **Accuracy:** ~87%
 - **ROC-AUC:** ~0.95
 - Strong recall for subscribers (`y = 1`)
