@@ -81,9 +81,9 @@ EDA was performed across four major dimensions:
 ### 4️⃣ Economic Factors
 
 <p align="center">
-  <img src="plots/cons_conf_cat_success_rate.png" width="400">
-  <img src="plots/nr_employed_cat_success_rate.png" width="400">
-  <img src="plots/euribor_cat_success_rate.png" width="400">
+  <img src="plots/cons_conf_cat_success_rate.png" width="350">
+  <img src="plots/nr_employed_cat_success_rate.png" width="350">
+  <img src="plots/euribor_cat_success_rate.png" width="350">
 </p>
 
 - Low interest rate environments strongly boost subscriptions
@@ -112,7 +112,7 @@ Pearson correlation was used, with values ranging from **-1 to +1**, where:
 - **0** indicates no linear relationship
 
 <p align="center">
-  <img src="plots/coor_matrix.png" width="400">
+  <img src="plots/coor_matrix.png" width="500">
 </p>
 
 The analysis shows that **macroeconomic variables** such as `euribor3m`, `nr.employed`, and `emp.var.rate` are **strongly correlated with each other**, reflecting overall economic conditions.  
@@ -140,8 +140,8 @@ The correlation matrix also helps in **feature selection** and understanding whi
 ### Model Performance (Without Duration)
 
 <p align="center">
-  <img src="plots/Confusion_matrix.png" width="400">
-  <img src="plots/Roc_curve.png" width="400">
+  <img src="plots/Confusion_matrix.png" width="500">
+  <img src="plots/Roc_curve.png" width="500">
 </p>
 
 - **Accuracy:** ~87%
