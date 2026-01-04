@@ -38,11 +38,18 @@ The dataset contains information related to:
 EDA was performed across four major dimensions:
 
 ### 1️⃣ Overall Campaign Performance
+
+![Success Rate](plots/Figure_1.png)
+
 - Overall subscription success rate is **~11.3%**
 - Majority of customers (**~88.7%**) did not subscribe
 - Indicates need for improved targeting and segmentation
 
 ### 2️⃣ Customer Demographics
+
+![Age_Group](plots/age_group_success_rate.png)
+![Jobs](plots/job_success_rate.png)
+
 - Highest success rates observed for:
   - **Students**
   - **Retired customers**
