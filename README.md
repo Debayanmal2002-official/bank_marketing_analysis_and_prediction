@@ -47,8 +47,10 @@ EDA was performed across four major dimensions:
 
 ### 2️⃣ Customer Demographics
 
-![Age_Group](plots/age_group_success_rate.png)
-![Jobs](plots/job_success_rate.png)
+<p align="center">
+  <img src="plots/age_group_success_rate.png" width="300">
+  <img src="plots/job_success_rate.png" width="300">
+</p>
 
 - Highest success rates observed for:
   - **Students**
