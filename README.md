@@ -138,10 +138,10 @@ The correlation matrix also helps in **feature selection** and understanding whi
 - ROC-AUC
 - Confusion Matrix
 
-### Model Performance (Without Duration)
+### Model Performance
 
 <p align="center">
-  <img src="plots/conf_matx.png" width="500">
+  <img src="plots/conf_matx1.png" width="500">
   <img src="plots/roc_c.png.png" width="500">
 </p>
 
