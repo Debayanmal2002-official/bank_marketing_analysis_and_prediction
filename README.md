@@ -145,7 +145,7 @@ The correlation matrix also helps in **feature selection** and understanding whi
   <img src="plots/roc_c.png.png" width="500">
 </p>
 
-- **Accuracy:** ~89%
+- **Accuracy:** ~76%
 - **ROC-AUC:** ~0.74
 - Strong recall for subscribers (`y = 1`)
 - Balanced trade-off between false positives and false negatives
