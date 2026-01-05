@@ -141,12 +141,12 @@ The correlation matrix also helps in **feature selection** and understanding whi
 ### Model Performance (Without Duration)
 
 <p align="center">
-  <img src="plots/Confusion_matrix.png" width="500">
-  <img src="plots/Roc_curve.png" width="500">
+  <img src="plots/conf_matx.png" width="500">
+  <img src="plots/roc_c.png.png" width="500">
 </p>
 
-- **Accuracy:** ~87%
-- **ROC-AUC:** ~0.95
+- **Accuracy:** ~89%
+- **ROC-AUC:** ~0.74
 - Strong recall for subscribers (`y = 1`)
 - Balanced trade-off between false positives and false negatives
 
