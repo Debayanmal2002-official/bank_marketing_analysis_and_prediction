@@ -142,7 +142,7 @@ The correlation matrix also helps in **feature selection** and understanding whi
 
 <p align="center">
   <img src="plots/conf_matx1.png" width="500">
-  <img src="plots/roc_c.png.png" width="500">
+  <img src="plots/roc_c.png" width="500">
 </p>
 
 - **Accuracy:** ~76%
