@@ -96,7 +96,7 @@ EDA was performed across four major dimensions:
 - Created categorical bins for continuous economic variables
 - Converted binary target (`yes/no`) to numeric (`1/0`)
 - Encoded categorical variables using Label encoding
-- Used Cramer's V and Bergsma-reitsma bias correction
+- Used **Cramer's V** and **Bergsma-reitsma** bias correction
 - Carefully handled **data leakage** by evaluating models:
   - With `duration`
   - Without `duration` (realistic production scenario)
